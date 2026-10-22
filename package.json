@@ -8,6 +8,10 @@
     "dev": "vuepress dev",
     "build": "NODE_OPTIONS='--max-old-space-size=8192' vuepress build"
   },
+  "resolutions": {
+    "markdown-it": "14.3.3",
+    "vite": "7.3.7"
+  },
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.24",
     "@vuepress/plugin-search": "^2.0.0-rc.110",
